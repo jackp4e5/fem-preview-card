@@ -1,0 +1,6 @@
+
+@mixin media{
+    @media (min-width:500px) {
+        @content;
+    }
+}
